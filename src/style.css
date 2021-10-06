@@ -1,0 +1,77 @@
+body {
+  margin: 50px 50px 50px 50px;
+  padding: 20px 10px 20px 10px;
+  display: block;
+  width: auto;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/871/original/e2860d1c_3-sett-image-9.jpg?1624958944");
+
+  border-radius: 5px;
+  border: 2px solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  text-align: center;
+  color: rgb(14, 12, 12);
+  position: sticky;
+  display: block;
+  border-radius: 5px;
+  background: none;
+  opacity: 10;
+  border: 2px solid;
+  font-size: 20px;
+  grid-template-columns: 45% 30% 25%;
+  padding: 30px 20px 30px 20px;
+  margin: 10px 20px 10px 20px;
+  top: 0;
+}
+
+p {
+  display: block;
+  color: #593937;
+  margin: 10px 20px 10px 20px;
+}
+img {
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #33190f;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: #c94f1e;
+  color: #33190f;
+  font-size: 14px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  display: block;
+  border: black;
+  background-color: white;
+}
+.aligncenter {
+  text-align: center;
+}
+.parent > div {
+  background: lightcyan;
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+}
